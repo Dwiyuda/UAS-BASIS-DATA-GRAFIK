@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualisasi Rumah Sakit Aceh</title>
+    <link rel="icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../node_modules/popoto/dist/popoto.min.css">
+    <link rel="stylesheet" href="../shared.css">
+    <style>
+        .ppt-div-graph {
+            height: 50%;
+        }
+    </style>
+</head>
+<body class="ppt-body">
+<section class="ppt-section-main" style="height: 800px">
+    <div class="ppt-section-header">
+        <span class="ppt-header-span">Graf Rumah Sakit Aceh -</span> Query Viewer
+    </div>
+    <div id="popoto-graph" class="ppt-div-graph"></div>
+    <div id="popoto-query" class="ppt-container-query"></div>
+</section>
+
+<script src="../shared.js" charset="utf-8"></script>
+<script src="../node_modules/d3/dist/d3.min.js" charset="utf-8"></script>
+<script src="../node_modules/neo4j-driver-lite/lib/browser/neo4j-lite-web.min.js" charset="utf-8"></script>
+<script src="../node_modules/popoto/dist/popoto.min.js" charset="utf-8"></script>
+
+<script>
+    // Gunakan koneksi ke server lokal
+    const driver = neo4j.driver(
+        "bolt://localhost:7687", // port Bolt default Neo4j Desktop
+        neo4j.auth.basic("neo4j", "12345678") // Ganti dengan password database lokal kamu
+    );
+
+    popoto.runner.DRIVER = driver;
+
+    popoto.provider.node.Provider = {
+        "Hospital": {
+            returnAttributes: ["nama", "alamat", "total_tempat_tidur", "total_layanan", "total_tenaga_kerja"],
+            constraintAttribute: "id"
+        },
+        "City": {
+            returnAttributes: ["nama"],
+            constraintAttribute: "nama"
+        },
+        "Province": {
+            returnAttributes: ["nama"],
+            constraintAttribute: "nama"
+        },
+        "Ownership": {
+            returnAttributes: ["nama"],
+            constraintAttribute: "nama"
+        },
+        "HospitalType": {
+            returnAttributes: ["jenis"],
+            constraintAttribute: "jenis"
+        },
+        "Class": {
+            returnAttributes: ["kelas"],
+            constraintAttribute: "kelas"
+        },
+        "BLUStatus": {
+            returnAttributes: ["status"],
+            constraintAttribute: "status"
+        },
+        "Capacity": {
+            returnAttributes: ["jumlah"],
+            constraintAttribute: "jumlah"
+        },
+        "Workforce": {
+            returnAttributes: ["jumlah"],
+            constraintAttribute: "jumlah"
+        },
+        "Bed": {
+            returnAttributes: ["jumlah"],
+            constraintAttribute: "jumlah"
+        },
+        "Location": {
+            returnAttributes: ["latitude", "longitude"],
+            constraintAttribute: "latitude"
+        }
+    };
+
+    driver.verifyConnectivity().then(() => {
+        popoto.start("Hospital"); // node akar
+    }).catch((error) => {
+        console.error("Gagal koneksi ke Neo4j Desktop:", error);
+        alert("Cek koneksi Neo4j lokal dan password-nya!");
+    });
+</script>
+</body>
+</html>

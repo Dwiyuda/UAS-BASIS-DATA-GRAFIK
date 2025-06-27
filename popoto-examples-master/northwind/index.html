@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rumah Sakit Aceh - Graph</title>
+    <link rel="stylesheet" href="../node_modules/popoto/dist/popoto.min.css">
+    <link rel="stylesheet" href="../shared.css">
+    <style>
+        .ppt-link__text--value {
+            fill: white;
+        }
+        .ppt-segment { opacity: 0.3; }
+        .very-thin { stroke-width: 1px; stroke: #fef0d9; }
+        .thin { stroke-width: 13px; stroke: #fdcc8a; }
+        .medium { stroke-width: 25px; stroke: #fc8d59; }
+        .thick { stroke-width: 37px; stroke: #e34a33; }
+        .very-thick { stroke-width: 49px; stroke: #b30000; }
+    </style>
+</head>
+
+<body class="ppt-body">
+<section class="ppt-section-main">
+    <div class="ppt-section-header">
+        <span class="ppt-header-span">Rumah Sakit Aceh</span> graph
+    </div>
+    <div class="ppt-container-graph">
+        <nav id="popoto-taxonomy" class="ppt-taxo-nav"></nav>
+        <div id="popoto-graph" class="ppt-div-graph"></div>
+    </div>
+    <div id="popoto-cypher" class="ppt-container-cypher"></div>
+    <div class="ppt-section-header">
+        RESULTS <span id="result-total-count" class="ppt-count"></span>
+    </div>
+    <div id="popoto-results" class="ppt-container-results"></div>
+</section>
+
+<footer class="ppt-section-header">
+    Icons by <a href="https://www.flaticon.com" target="_blank">Flaticon</a>
+</footer>
+
+<!-- Scripts -->
+<script src="../shared.js" charset="utf-8"></script>
+<script src="../node_modules/d3/dist/d3.min.js" charset="utf-8"></script>
+<script src="../node_modules/neo4j-driver-lite/lib/browser/neo4j-lite-web.min.js" charset="utf-8"></script>
+<script src="../node_modules/popoto/dist/popoto.min.js" charset="utf-8"></script>
+
+<script>
+    const driver = neo4j.driver(
+        "bolt://localhost:7687",
+        neo4j.auth.basic("neo4j", "12345678"), // Ganti dengan password Neo4j-mu
+        { disableLosslessIntegers: true }
+    );
+
+    popoto.runner.DRIVER = driver;
+    popoto.query.COLLECT_RELATIONS_WITH_VALUES = true;
+
+    const iconPath = {
+        "Hospital": "image/node/rumahsakit/rumahsakit.png",
+        "City": "image/node/kota/kota.png",
+        "Province": "image/node/provinsi/provinsi.png",
+        "Ownership": "image/node/kepemilikan/kepemilikan.png",
+        "HospitalType": "image/node/rumahsakit/rumahsakit.png", // atau buat folder tersendiri jika perlu
+        "Class": "image/node/kelas/kelas.png",
+        "BLUStatus": "image/node/kelas/kelas.png", // atau ganti ke folder blu/
+        "Location": "image/node/lokasi/lokasi.png",
+        "Capacity": "image/node/kapasitas/kapasitas.png",
+        "Workforce": "image/node/pegawai/pegawai.png",
+        "Bed": "image/node/kasur-rumahsakit/kasur-rumahsakit.png"
+    };
+
+    function nodeImage(label) {
+        return iconPath[label] || "image/node/rumahsakit/rumahsakit.png";
+    }
+
+    popoto.provider.node.Provider = {
+        "Hospital": {
+            returnAttributes: ["nama", "alamat", "total_tempat_tidur", "total_layanan", "total_tenaga_kerja"],
+            constraintAttribute: "id",
+            autoExpandRelations: true,
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("Hospital")
+        },
+        "City": {
+            returnAttributes: ["nama"],
+            constraintAttribute: "nama",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("City")
+        },
+        "Province": {
+            returnAttributes: ["nama"],
+            constraintAttribute: "nama",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("Province")
+        },
+        "Ownership": {
+            returnAttributes: ["nama"],
+            constraintAttribute: "nama",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("Ownership")
+        },
+        "HospitalType": {
+            returnAttributes: ["jenis"],
+            constraintAttribute: "jenis",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("HospitalType")
+        },
+        "Class": {
+            returnAttributes: ["kelas"],
+            constraintAttribute: "kelas",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("Class")
+        },
+        "BLUStatus": {
+            returnAttributes: ["status"],
+            constraintAttribute: "status",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("BLUStatus")
+        },
+        "Location": {
+            returnAttributes: ["latitude", "longitude"],
+            constraintAttribute: "latitude",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("Location")
+        },
+        "Capacity": {
+            returnAttributes: ["jumlah"],
+            constraintAttribute: "jumlah",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("Capacity")
+        },
+        "Workforce": {
+            returnAttributes: ["jumlah"],
+            constraintAttribute: "jumlah",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("Workforce")
+        },
+        "Bed": {
+            returnAttributes: ["jumlah"],
+            constraintAttribute: "jumlah",
+            getDisplayType: () => popoto.provider.node.DisplayTypes.IMAGE,
+            getImagePath: () => nodeImage("Bed")
+        }
+    };
+
+    popoto.provider.taxonomy.Provider = {
+        getCSSClass: (label, element) => `ppt-taxo__${element} ${label}`
+    };
+
+    popoto.result.onTotalResultCount(count => {
+        document.getElementById("result-total-count").innerText = `(${count})`;
+    });
+
+    driver.verifyConnectivity().then(() => {
+        popoto.start("Hospital");
+    }).catch(error => {
+        console.error("Neo4j connection error:", error);
+        alert("Neo4j connection error. Check console log.");
+    });
+</script>
+</body>
+</html>

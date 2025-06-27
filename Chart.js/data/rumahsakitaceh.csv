@@ -1,0 +1,77 @@
+id,nama,propinsi,kab,alamat,jenis,kelas,status_blu,kepemilikan,total_tempat_tidur,total_layanan,total_tenaga_kerja,latitude,longitude
+1110053,RS Arun Lhokseumawe,Aceh,Kota Lhokseumawe,Jl. Plaju Komplek Perumahan PT Arun Batuphat Timur Kec. Muara Satu,Rumah Sakit Umum,C,Non BLU/BLUD,SWASTA/LAINNYA,218,36,328,5.216592,97.0488
+1106014,RS Umum Fandika,Aceh,Aceh Tengah,Jl. Terminal Simpang Wariji Blangkolak 1 Kec. Bebesen,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,45,15,45,4.62458,96.846966
+1171110,RS Umum Daerah Meuraxa,Aceh,Kota Banda Aceh,Jl. Soekarno Hatta Km. 2 Desa Mibo Kecamatan Banda Raya,Rumah Sakit Umum,B,BLUD,Pemkot,310,77,487,5.518429,95.31783
+1171163,RS Gigi Mulut Universitas Syiah Kuala,Aceh,Kota Banda Aceh,Jl. Prof A. Madjid Ibrahim I No. 5 Banda Aceh Kel. Punge Jurong,Rumah Sakit Khusus Gigi dan Mulut,B,BLU,Kementerian Lain,11,24,0,5.551001,95.312527
+1102027,RS Umum Daerah Kota Subulussalam,Aceh,Kota Subulussalam,Jl. Hamzah Fansyuri (Subulussalam-Rundeng) Kec. Simpang Kiri Kota Subulussalam Aceh 24782,Rumah Sakit Umum,C,BLUD,Pemkot,189,34,537,2.649506,97.989316
+1106013,RS Umum Daerah Datu Beru Takengon,Aceh,Aceh Tengah,Jl. Rumah Sakit No.153 Kec. Kebayakan,Rumah Sakit Umum,B,BLUD,Pemkab,376,80,470,4.637269,96.85328
+1109028,RS Umum Mufid,Aceh,Pidie,JL. PROF. A. MAJID IBRAHIM NO. 62-66 KEC. KOTA SIGLI KABUPATEN PIDIE ACEH,Rumah Sakit Umum,D,Non BLU/BLUD,Perusahaan,102,64,208,5.377235,95.959019
+1174022,RS Umum Metro Medical Center,Aceh,Kota Lhokseumawe,Jl. Merdeka Barat No. 70 A Kecamatan Muara Dua Kota Lhokseumawe Nanggroe Aceh Darussalam,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,88,38,128,5.174018,97.129697
+1117025,RS Umum Daerah Muyang Kute Redelong Bener Meriah,Aceh,Bener Meriah,Jl. Simpang Teritit-Pondok Baru Simpang Empat Kute Kering Redelong Kec. Bukit,Rumah Sakit Umum,C,BLUD,Pemkab,176,35,199,4.69666,96.861122
+1106025,RS Gayo Medical Centre,Aceh,Aceh Tengah,Jl. Paya Tumpi-Mandale No. 126 Kec. Kebayakan,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,60,56,0,4.650705,96.834875
+1104013,RS Ibu dan Anak Keluarga Desa,Aceh,Aceh Tenggara,Jl. Iskandar Muda No. 58 Kutacane,Rumah Sakit Khusus Ibu dan Anak,C,Non BLU/BLUD,SWASTA/LAINNYA,80,28,3,3.470883,97.821459
+1105078,RS Umum Graha Bunda,Aceh,Aceh Timur,Jl. Medan - Banda Aceh Bukit Pala Idi Rayeuk - Aceh Timur,Rumah Sakit Umum,C,Non BLU/BLUD,Organisasi Sosial,163,26,315,4.958179,97.764437
+1110075,RS Umum Daerah Dr. Fauziah Bireun,Aceh,Bireuen,Jl. Mayjen T. Hamzah Bendahara No. 13 Bireuen,Rumah Sakit Umum,B,BLUD,Pemkab,251,84,1178,5.204976,96.699176
+1171143,RS Bhayangkara Banda Aceh,Aceh,Kota Banda Aceh,Jl. Cut Nyak Dhien No. 23 Lamteumen Barat Banda Aceh,Rumah Sakit Umum,C,BLU,POLRI,182,23,147,5.531381,95.294902
+1103010,RS Umum Daerah Dr. H. Yulidin Away,Aceh,Aceh Selatan,Jl. T. Ben Mahmud Nomor 86 A Tapaktuan,Rumah Sakit Umum,B,BLUD,Pemkab,359,68,515,3.287096,97.158552
+1108015,RS Umum Daerah Kabupaten Aceh Besar,Aceh,Aceh Besar,Jl. Banda Aceh-Medan Km. 25 Desa Sinyeu Kec. Indrapuri,Rumah Sakit Umum,C,Non BLU/BLUD,Pemkab,101,23,262,5.411403,95.447164
+1171026,RS Tk. II Iskandar Muda Banda Aceh,Aceh,Kota Banda Aceh,Jl. T. Hamzah Bendahara No. 1 Kel. Kuta Alam Kec. Kuta Alam 24415,Rumah Sakit Umum,B,BLU,TNI AD,273,82,442,5.554969,95.324875
+1174023,RS Ibu dan Anak ABBY,Aceh,Kota Lhokseumawe,Jl. T. Chik Ditiro Nomor 28 Lancang Garam Kec. Banda Sakti Kota Lhokseumawe Propinsi Aceh,Rumah Sakit Khusus Ibu dan Anak,C,Non BLU/BLUD,SWASTA/LAINNYA,66,30,91,5.182977,97.147625
+1101015,RS Umum Daerah Simeulue,Aceh,Simeulue,Jl. Teuku Raja Mahmud Desa Amiria Bahagia Kecamatan Simeulue Timur Kabupaten Simeulue Provinsi Aceh,Rumah Sakit Umum,C,BLUD,Pemkab,120,33,533,2.465402,96.376758
+1174021,RS Umum Sakinah,Aceh,Kota Lhokseumawe,Jl. Antara No. 30 Kp. Jawa Baru Lhokseumawe,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,68,22,119,5.188232,97.144983
+1174100,RS Tk. IV Lhokseumawe Aceh Utara,Aceh,Kota Lhokseumawe,Jl. Samudra No.53A Kp Jawa Kec. Banda Sakti Kota Lhokseumawe,Rumah Sakit Umum,C,Non BLU/BLUD,TNI AD,171,60,303,5.183078,97.150353
+1110104,RS Umum Jeumpa Hospital,Aceh,Bireuen,Jl. B.Aceh - Medan Km 220 No 102 Dsn.Teratai Desa Geulanggang Baro Kecamatan Kota Juang,Rumah Sakit Umum,C,Non BLU/BLUD,SWASTA/LAINNYA,104,28,151,5.204295,96.720654
+1113023,RS Tanoh Gayo,Aceh,Gayo Lues,Jl. Blower Kp Pers. Sentang Desa/Kelurahan Bustanussalam Kec. Blangkejeren,Rumah Sakit Umum,D,Non BLU/BLUD,Kementerian Lain,54,22,0,3.998974,97.332814
+1116011,RS Umum Daerah Teuku Umar Kabupaten Aceh Jaya,Aceh,Aceh Jaya,Jln. Ali Gunong Lr. PMI No. 1 Calang Kec. Krueng Sabee Kabupaten Aceh Jaya Propinsi Aceh,Rumah Sakit Umum,C,BLUD,Pemkab,107,23,406,4.634791,95.5963
+1172031,RS AL Sabang,Aceh,Kota Sabang,Jl. Teuku Chik Ditiro Kel. Kota Atas Kec. Sukakarya,Rumah Sakit Umum,D,Non BLU/BLUD,TNI AL,52,17,20,5.89458,95.325921
+1103022,RS Umum Daerah Type D Pratama T. Cut Ali,Aceh,Aceh Selatan,Jl. Padang Ketek Gampong Kedai Rundeng Kec. Kluet Selatan,Rumah Sakit Umum,D PRATAMA,Non BLU/BLUD,Pemkab,0,3,0,3.10416,97.691305
+1173012,RS Umum Daerah Langsa,Aceh,Kota Langsa,Jl. Jend. Ahmad Yani No.1 Gampong Jawa Kec. Langsa Kota Kota Langsa Provinsi Aceh.,Rumah Sakit Umum,B,BLUD,Pemkot,361,65,1169,4.469372,97.97111
+1109027,RS Umum Daerah TGK. Abdullah Syafii Beureuneun,Aceh,Pidie,Jl. Banda Aceh-Medan Km. 125.5 Kota Mini Beureunuen Kec. Mutiara Timur,Rumah Sakit Umum,C,BLUD,Pemkab,200,25,801,5.271804,95.985905
+1171085,RS Umum Malahayati,Aceh,Kota Banda Aceh,Jl. Cut Nyak Dhien No. 498 Banda Aceh,Rumah Sakit Umum,D,Non BLU/BLUD,Organisasi Sosial,42,13,18,5.203627,96.694068
+1113012,RS Umum Muhammad Ali Kasim,Aceh,Gayo Lues,Jl. Pangur Desa Pangur Kecamatan Dabun Gelang,Rumah Sakit Umum,C,BLUD,Pemkab,159,24,640,4.006297,97.370337
+1105034,RS Umum Pertamina Rantau,Aceh,Aceh Tamiang,Jl. Cepu No 1 Komplek Pertamina Rantau Aceh Tamiang,Rumah Sakit Umum,D,Non BLU/BLUD,BUMN,50,21,49,4.329236,98.097956
+1111006,RS Umum Daerah dr. Muchtar Hasbi,Aceh,Aceh Utara,Jl. Medan Banda Aceh Alue Mudem Landing Lhoksukon,Rumah Sakit Umum,D PRATAMA,Non BLU/BLUD,Pemkab,28,13,0,5.066653,97.30735
+1110027,RS Umum Malahayati,Aceh,Bireuen,Jl. Medan-Banda Aceh No. 100 M Meunasah Blang Bireuen,Rumah Sakit Umum,D,Non BLU/BLUD,Organisasi Sosial,74,35,123,5.203584,96.693897
+1171106,RS Umum Teungku Fakinah,Aceh,Kota Banda Aceh,Jl. Jend. Sudirman 27-29 Banda Aceh,Rumah Sakit Umum,C,Non BLU/BLUD,Organisasi Sosial,113,39,148,5.529898,95.304537
+1105056,RS Umum Daerah dr. Zubir Mahmud,Aceh,Aceh Timur,Jl. Banda Aceh-Medan Km. 372 Desa Seuneubok Barat Kecamatan Idi Timur,Rumah Sakit Umum,B,BLUD,Pemkab,246,47,636,4.919936,97.798183
+1110103,RS Umum Avicenna,Aceh,Bireuen,Jln. Laksamana Malahayati/Kuala Raja No.1 Lhok Awe Teungoh Kecamatan Kota Juang Kabupaten Bireuen Provinsi Aceh 24252,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,50,17,101,4.127711,96.334604
+1111029,RS Zahra,Aceh,Aceh Utara,Jl. Medan-Banda Aceh KM 303 Meunasah Reudeup Kec Lhoksukon,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,56,11,0,5.30838,96.890292
+1103021,RS Cahaya Sehat,Aceh,Aceh Selatan,Jl. Panglima Raja Lelo No. 10 Gampong Hilir Kec. Tapaktuan,Rumah Sakit Umum,D,Non BLU/BLUD,Kementerian Lain,71,20,0,5.146996,97.505421
+1105067,RS Umum Daerah Sultan Abdul Aziz Syah Peureulak,Aceh,Aceh Timur,Jl. Monisa No.1 Desa Lhok Dalam Kecamatan Peureulak Kabupaten Aceh Timur Provinsi Aceh,Rumah Sakit Umum,C,BLUD,Pemkab,170,34,480,3.254968,97.176487
+1174064,RS Umum Kasih Ibu Lhokseumawe,Aceh,Kota Lhokseumawe,Jl. Merdeka No. 17 Dusun III Kel. Kuta Blang Kec. Banda Sakti,Rumah Sakit Umum,C,Non BLU/BLUD,Organisasi Sosial,116,26,80,4.807345,97.88625
+1171161,RS Umum Cempaka Lima,Aceh,Kota Banda Aceh,Jl. Politeknik No 23 Dusun Meunasah Dayah Lr B Gp.Beurawe Kecamatan Kuta Alam Banda Aceh,Rumah Sakit Umum,C,Non BLU/BLUD,Perusahaan,135,96,0,5.182469,97.13844
+1171121,RS Ibu dan Anak Pemerintah Aceh,Aceh,Kota Banda Aceh,Jl. Prof. A. Madjid Ibrahim I No. 3 Punge Jurong Kec. Meuraxa,Rumah Sakit Khusus Ibu dan Anak,B,BLUD,Pemprop,108,29,453,5.552487,95.335166
+1102016,RS Umum Daerah Aceh Singkil,Aceh,Aceh Singkil,Jl. Rimo-Singkil Km. 8 Desa Gunung Lagan Kec. Gunung Meriah,Rumah Sakit Umum,C,BLUD,Pemkab,101,32,566,5.5504,95.312579
+1171146,RS Ibu dan Anak Cempaka Az Zahra Banda Aceh,Aceh,Kota Banda Aceh,Jl. Syiah Kuala No. 88 Bandar Baru Kec. Kuta Alam Kota Banda Aceh Provinsi Aceh,Rumah Sakit Khusus Ibu dan Anak,C,Non BLU/BLUD,Perusahaan,46,18,66,2.348899,97.930076
+1107014,RS Umum Daerah Cut Nyak Dhien,Aceh,Aceh Barat,Jl. Gajah Mada Meulaboh,Rumah Sakit Umum,B,BLUD,Pemkab,267,16,812,5.564774,95.33048
+1171015,RS Umum Daerah Dr. Zainoel Abidin,Aceh,Kota Banda Aceh,Jl. Tgk Daud Beureueh NO. 108 B. Aceh,Rumah Sakit Umum,A,BLUD,Pemprop,833,141,2039,4.15618,96.130233
+1107017,RS Tk. IV IM 07.02,Aceh,Aceh Barat,Jl. Pocut Baren Ujung Karang Desa Suak Indrapuri Kec. Johan Pahlawan Meulaboh Aceh Barat,Rumah Sakit Umum,D,Non BLU/BLUD,TNI AD,56,23,20,5.563894,95.336719
+1109031,RS Islam Ibnu Sina Sigli,Aceh,Pidie,Jl Lingkar Keunire no 21-24 Gampong Cot,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,72,31,196,4.131885,96.133114
+1104012,RS Umum Nurul Hasanah,Aceh,Aceh Tenggara,Jl. A. Yani No. 23 Pulo Kemiri Kutacane,Rumah Sakit Umum,C,Non BLU/BLUD,SWASTA/LAINNYA,123,26,167,5.36976,95.95697
+1110086,RS Umum Bunda,Aceh,Kota Lhokseumawe,Jl. Darussalam Nomor 16 Desa/Kel. Lancang Garam Kec. Banda Sakti,Rumah Sakit Umum,C,Non BLU/BLUD,Organisasi Sosial,101,33,261,3.495859,97.809297
+1172016,RS Umum Daerah Sabang,Aceh,Kota Sabang,Jl. Teuku Umar No. 21 Gampong Kuta Ateuh Kec. Sukakarya,Rumah Sakit Umum,C,Non BLU/BLUD,Pemkot,104,29,289,6.195905,106.837897
+1117027,RS Ibu dan Anak Azalia,Aceh,Bener Meriah,Jl. Empun Bayak Kampung Bale Atu Kec. Bukit,Rumah Sakit Khusus Ibu dan Anak,C,Non BLU/BLUD,Perorangan,60,16,13,5.895131,95.316816
+1107016,RS Umum Harapan Sehat,Aceh,Aceh Barat,Jl. Sisingamangaraja Dusun III Desa Gampa Kecamatan Johan Pahlawan Kabupaten Aceh Barat. Provinsi Aceh,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,51,25,53,4.717022,96.859997
+1104011,RS Umum Daerah H. Sahudin Kutacane,Aceh,Aceh Tenggara,Jl. Kutacane - Blangkejeren Km. 3 Kec. Badar Kabupaten Aceh Tenggara Provinsi Aceh,Rumah Sakit Umum,C,BLUD,Pemkab,180,32,493,4.171138,96.137639
+1109016,RS Umum Daerah TGK Chik Ditiro Sigli,Aceh,Pidie,Jl. Prof. A. Majid Ibrahim Sigli,Rumah Sakit Umum,B,BLUD,Pemkab,294,31,1949,3.522375,97.798623
+1171150,RS Umum Pertamedika Ummi Rosnati,Aceh,Kota Banda Aceh,Jl. Sekolah No. 5 Gampoeng Ateuk Pahlawan Kecamatan Baiturahman Kota Banda Aceh 23241,Rumah Sakit Umum,C,Non BLU/BLUD,Perusahaan,151,54,243,5.364004,95.960701
+1171041,RS Jiwa Aceh,Aceh,Kota Banda Aceh,Jl. Dr. T. Syarief Thayeb No.25 Banda Aceh,Rumah Sakit Khusus Jiwa,A,BLUD,Pemprop,354,29,541,5.549411,95.327193
+1109029,RS Umum Citra Husada,Aceh,Pidie,Jl. Prof. A. Majid Ibrahim Kelurahan Lampeudeu Baroh Kecamatan Pidie. Kabupaten Pidie. Provinsi Aceh.,Rumah Sakit Umum,D,Non BLU/BLUD,Perusahaan,89,75,159,5.562162,95.339785
+1112011,RS Umum Daerah Teungku Peukan,Aceh,Aceh Barat Daya,Jl. Nasional Padang Meurante Desa Ujung Padang Kec. Susoh,Rumah Sakit Umum,C,BLUD,Pemkab,256,96,1100,5.37265,95.959896
+1111018,RS Umum PMI Cabang Aceh Utara,Aceh,Kota Lhokseumawe,Jl. Samudera Desa/Kel Kampung Jawa Kec. Banda Sakti,Rumah Sakit Umum,D,Non BLU/BLUD,Organisasi Sosial,73,15,60,3.739309,96.799609
+1171145,RS Umum Meutia,Aceh,Kota Banda Aceh,Jl. Cut Meutia No. 55,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,51,14,63,5.198146,97.177756
+1173023,RS Umum Cut Meutia,Aceh,Kota Langsa,Jl. Garuda No. 1 Kebun Baru Kec. Paya Bujok Seulemak Langsa Baro Kota Langsa Aceh,Rumah Sakit Umum,C,Non BLU/BLUD,BUMN,113,18,36,5.559029,95.319423
+1110101,RS Umum Bireuen Medical Center,Aceh,Bireuen,Bireuen Aceh,Rumah Sakit Umum,D,Non BLU/BLUD,Organisasi Sosial,75,27,221,5.12282,97.157569
+1107015,RS Umum Montella,Aceh,Aceh Barat,Jl. Beringin jaya kel. seunubok Kec. Johan pahlawan kabupaten aceh barat Aceh 23611,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,51,16,55,5.190363,96.702798
+1174016,RS Umum Cut Meutia Kab. Aceh Utara,Aceh,Kota Lhokseumawe,Jl. Banda Aceh-Medan Km.6 Buket Rata Lhokseumawe,Rumah Sakit Umum,B,BLUD,Pemkab,275,106,1352,4.159458,96.123448
+1171096,RS Umum Harapan Bunda Banda Aceh,Aceh,Kota Banda Aceh,Jl. Teuku Umar No. 181-211 Kel. Setui Kec. Baiturrahman,Rumah Sakit Umum,C,Non BLU/BLUD,Organisasi Sosial,154,32,379,5.12235,97.156679
+1111005,RS Umum Prima Inti Medika,Aceh,Aceh Utara,Jl. Singgalang No. 1 Komplek Perumahan PT. PIM Krueng Geukeuh Kab. Aceh Utara,Rumah Sakit Umum,D,Non BLU/BLUD,Perusahaan,70,29,44,5.540048,95.310484
+1174024,RS Umum Az-Zuhra,Aceh,Kota Lhokseumawe,Jl. Pasar. Impres No.2 LK. IV Desa Kuta Blang Kec. Banda Sakti Kota Lhokseumawe Aceh 24352,Rumah Sakit Umum,D,Non BLU/BLUD,Perusahaan,51,29,19,5.221782,97.026269
+1118012,RS Umum Daerah Pidie Jaya,Aceh,Pidie Jaya,Jl. Banda Aceh - Medan Gp.Dayah Timu KM. 158 Meureudu,Rumah Sakit Umum,B,BLUD,Pemkab,250,16,235,5.183109,97.140822
+1171147,RS Pendidikan Universitas Syiah Kuala,Aceh,Kota Banda Aceh,Jl. Lingkar Kampus USK Kopelma Darussalam Kota Banda Aceh,Rumah Sakit Umum,D,Non BLU/BLUD,Kementerian Lain,50,28,118,5.235091,96.244972
+1114011,RS Umum Daerah Muda Sedia Kabupaten Aceh Tamiang,Aceh,Aceh Tamiang,Jl. Kesehatan Kab.Aceh Tamiang,Rumah Sakit Umum,C,BLUD,Pemkab,287,31,398,5.563835,95.370231
+1109042,RS Umum Harapan Ibu,Aceh,Pidie,Jl. Kembang Ranjong-Teupin Raya Desa Gampong Sagoe No. 7 Kec. Glumpang Baro,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,58,24,0,5.175532,97.146563
+1174019,RS Umum Bunga Melati,Aceh,Kota Lhokseumawe,Jl. Samudra Baru No.3 Keude Aceh Kec. Banda Sakti,Rumah Sakit Umum,D,Non BLU/BLUD,Perorangan,116,21,156,4.480751,97.977574
+1173003,RS Umum Ummi Langsa,Aceh,Kota Langsa,Jl. Prof. Majid Ibrahim No.10 A Kelurahan. Gp Sungai Pauh Kecamatan Langsa Barat Kota Langsa Aceh,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,54,20,46,5.201759,96.694502
+1110102,RS Umum Telaga Bunda,Aceh,Bireuen,Jl. Peutua Banta 7 Gampong Bireuen Meunasah Blang,Rumah Sakit Umum,D,Non BLU/BLUD,Organisasi Sosial,50,39,186,5.511897,95.344108
+1108028,RS Hermina Aceh,Aceh,Aceh Besar,Jl. Soekarno Hatta Kec. Ingin Jaya,Rumah Sakit Umum,D,Non BLU/BLUD,SWASTA/LAINNYA,63,22,0,4.479802,97.956547
